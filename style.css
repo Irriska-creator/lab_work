@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(171, 233, 164, 0.858) 0%, rgb(255, 255, 255) 100%);
+    padding: 20px;
+}
+
+.portfolio{
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px 40px;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgb(5, 70, 29);
+    width: 100%;
+    max-width: 480px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 30px;
+    font-size: 20px;
+}
